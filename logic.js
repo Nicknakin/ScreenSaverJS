@@ -11,7 +11,7 @@ let colors = new Array(20);
 let values;
 
 function setup(){
-    var canvas = createCanvas(window.innerWidth*.9, window.innerHeight*.9);
+    var canvas = createCanvas(window.innerWidth, window.innerHeight);
     w = floor(width/s);
     h = floor(height/s);
     canvas.resize(w*s, h*s);
